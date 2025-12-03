@@ -9,7 +9,7 @@ This project analyzes employee attrition through systematic data preparation, st
 2. Data Transformation & Cleaning (Power Query)
     - Performed a structured data preparation process to improve consistency, reliability, and analytical value.
 
-    2.1 Standard Cleaning Steps
+    - 2.1 Standard Cleaning Steps
         - Trimmed leading/trailing spaces across all text fields.
         - Removed duplicate entries to eliminate redundant records.
         - Converted columns to appropriate data types (text, whole number, decimal, date).
@@ -33,7 +33,7 @@ This project analyzes employee attrition through systematic data preparation, st
 5. Strategic Grouping of Fields to Identify Attrition Drivers
 Designed intuitive variable groupings to uncover patterns behind employee turnover.
 
-    5.1 Personal & Demographic Factors
+    - 5.1 Personal & Demographic Factors
         - Age
         - AgeStartedWorking
         - Categorical variables:
@@ -42,19 +42,19 @@ Designed intuitive variable groupings to uncover patterns behind employee turnov
             - Education
             - Education Field
     
-    5.2 Compensation & Financial Factors
+    - 5.2 Compensation & Financial Factors
         - Monthly Income
         - Percent Salary Hike
         - Stock Option Level
     
-    5.3 Job-Specific & Role Factors
+    - 5.3 Job-Specific & Role Factors
         - Department
         - Job Role
         - Job Level
         - Business Travel
         - Overtime
     
-    5.4 Tenure & Career Progression Factors
+    - 5.4 Tenure & Career Progression Factors
         - Years at Company
         - Years in Current Role
         - Years Since Last Promotion
@@ -62,7 +62,7 @@ Designed intuitive variable groupings to uncover patterns behind employee turnov
         - Total Working Years
         - Number of Companies Worked
     
-    5.5 Satisfaction & Environment (Psychological Factors)
+    - 5.5 Satisfaction & Environment (Psychological Factors)
         - Environment Satisfaction
         - Job Satisfaction
         - Relationship Satisfaction
@@ -71,7 +71,7 @@ Designed intuitive variable groupings to uncover patterns behind employee turnov
         - Performance Rating
         - Distance From Home
     
-    Each group was analyzed using PivotTables to uncover trends, risk clusters, and correlations with attrition.
+    - Each group was analyzed using PivotTables to uncover trends, risk clusters, and correlations with attrition.
 
 6. Consolidation of Results + Executive Summary
     - Combined all findings into a structured overview.
