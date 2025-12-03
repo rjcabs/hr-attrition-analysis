@@ -79,5 +79,4 @@ Designed intuitive variable groupings to uncover patterns behind employee turnov
         - Who is leaving
         - Why they are leaving
         - Strategic recommendations for HR and leadership
-    - Ensured the final dashboard and summary are aligned with stakeholder needs.
 
