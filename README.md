@@ -5,8 +5,8 @@ This project analyzes employee attrition through systematic data preparation, st
 
 1. Data Loading using Power Query
     - Imported the dataset into Excel using Power Query for efficient data handling, refreshing, and transformation.
-    -Ensured the raw data source is connected for automated updates.
-2. Data Transformation & Cleaning (Power Query)
+    - Ensured the raw data source is connected for automated updates.
+3. Data Transformation & Cleaning (Power Query)
     - Performed a structured data preparation process to improve consistency, reliability, and analytical value.
 
 2.1 Standard Cleaning Steps
@@ -15,16 +15,16 @@ This project analyzes employee attrition through systematic data preparation, st
     - Converted columns to appropriate data types (text, whole number, decimal, date).
     - Handled missing values:
         - Numerical fields → filled using mean imputation.
-        - Text fields → replaced with ""Not Provided"".
-    - Standardized casing by converting all text fields to Capital Case for consistency.
+        - Text fields → replaced with "Not Provided".
+        - Standardized casing by converting all text fields to Capital Case for consistency.
     - Added a new calculated column:
         - AgeStartedWorking = Age – TotalWorkingYears (used to detect early career patterns)
 3. Outlier Detection & Data Integrity Check
-     - Applied the Interquartile Range (IQR) method to identify:
+    - Applied the Interquartile Range (IQR) method to identify:
         - Outliers in numeric variables
         - Potential data quality issues
         - Anomalies that may distort attrition insights
-     - Outliers were reviewed for context and retained only when logically valid.
+    - Outliers were reviewed for context and retained only when logically valid.
 4. Attrition Overview using Pivot Tables
     - Generated a high-level summary of attrition:
         - Overall attrition rate
