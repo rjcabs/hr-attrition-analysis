@@ -12,7 +12,7 @@ This project analyzes employee attrition through systematic data preparation, st
     - 2.1 Standard Cleaning Steps
         - Trimmed leading/trailing spaces across all text fields.
         - Removed duplicate entries to eliminate redundant records.
-        - Converted columns to appropriate data types (text, whole number, decimal, date).
+        - Converted columns to appropriate data types (text, whole number, decimal).
         - Handled missing values:
             - Numerical fields → filled using mean imputation.
             - Text fields → replaced with "Not Provided".
