@@ -9,23 +9,23 @@ This project analyzes employee attrition through systematic data preparation, st
 2. Data Transformation & Cleaning (Power Query)
     - Performed a structured data preparation process to improve consistency, reliability, and analytical value.
 
-3. Standard Cleaning Steps
-    - Trimmed leading/trailing spaces across all text fields.
-    - Removed duplicate entries to eliminate redundant records.
-    - Converted columns to appropriate data types (text, whole number, decimal, date).
-    - Handled missing values:
-        - Numerical fields → filled using mean imputation.
-        - Text fields → replaced with "Not Provided".
-        - Standardized casing by converting all text fields to Capital Case for consistency.
-    - Added a new calculated column:
-        - AgeStartedWorking = Age – TotalWorkingYears (used to detect early career patterns)
-4. Outlier Detection & Data Integrity Check
+    2.1 Standard Cleaning Steps
+        - Trimmed leading/trailing spaces across all text fields.
+        - Removed duplicate entries to eliminate redundant records.
+        - Converted columns to appropriate data types (text, whole number, decimal, date).
+        - Handled missing values:
+            - Numerical fields → filled using mean imputation.
+            - Text fields → replaced with "Not Provided".
+            - Standardized casing by converting all text fields to Capital Case for consistency.
+        - Added a new calculated column:
+            - AgeStartedWorking = Age – TotalWorkingYears (used to detect early career patterns)
+3. Outlier Detection & Data Integrity Check
     - Applied the Interquartile Range (IQR) method to identify:
         - Outliers in numeric variables
         - Potential data quality issues
         - Anomalies that may distort attrition insights
     - Outliers were reviewed for context and retained only when logically valid.
-5. Attrition Overview using Pivot Tables
+4. Attrition Overview using Pivot Tables
     - Generated a high-level summary of attrition:
         - Overall attrition rate
         - Number of employees leaving vs. staying
