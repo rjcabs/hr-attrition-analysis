@@ -26,16 +26,16 @@ This project analyzes employee attrition through systematic data preparation, st
         - Anomalies that may distort attrition insights
     - Outliers were reviewed for context and retained only when logically valid.
 4. Attrition Overview using Pivot Tables
-    - Generated a high-level summary of attrition:
+    - Generated a summary of attrition:
         - Overall attrition rate
-        - Number of employees leaving vs. staying
     - This served as the foundation for deeper analysis.
 5. Strategic Grouping of Fields to Identify Attrition Drivers
 Designed intuitive variable groupings to uncover patterns behind employee turnover.
 
     - 5.1 Personal & Demographic Factors
-        - Age
-        - AgeStartedWorking
+        - Continuous variables:
+            - Age
+            - AgeStartedWorking
         - Categorical variables:
             - Gender
             - Marital Status
